@@ -1,0 +1,291 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;700&display=swap');
+
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+@media screen and (min-width: 600px) {
+    header {
+        height: auto;
+       
+    }
+
+    }
+
+/*colores*/
+:root{
+    --color-1: yellow;
+    --color-2: teal;
+    --fuente: 'Poppins', sans-serif;
+}
+    
+header {
+    height: 100vh;
+    background-image: url(/img/Rainbow-Vortex.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-color: teal;
+}
+
+.header_style {
+    margin-top: 20px;
+}
+
+/*Fuentes y textos*/
+.logo {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 25px;
+    text-align: center;
+    color: white;
+    
+}
+
+.hd-2 {
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    text-align: center;
+}
+
+.texto-hd_2 {
+    font-size: 40px;
+}
+.texto-hd_3 {
+    font-size: 17px;
+    margin-top: -20px;
+}
+
+.texto-hd {
+    font-size: 25px;
+    margin: 0%;
+    margin-bottom: -5px;
+}
+.color-one {
+    color: yellow;
+    font-weight: 700;
+}
+
+/*buttons*/ 
+.btn-one {
+    border: 1px solid;
+    background-color: yellow;
+    border-radius: 5px;
+    transition: 0.5s;
+}
+
+.btn-one:hover{
+    padding-left: 40px;
+    padding-right: 40px;
+    background-color: aqua;
+    transition: 0.3s;
+    border-radius: 10px;
+    box-shadow: 0 0 1em 0 rgba(0, 0,0, 0.8);
+}
+
+/*img*/ 
+
+.img-content{
+    display: flex;
+    justify-content: center;
+    margin: 0%;
+    overflow: hidden;
+}
+
+.img-sobremi {
+    width: 300px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+
+/*iconos*/
+
+.icon-header {
+    margin-top: 15px;
+    margin-bottom: 60px;
+}
+.home__social-icon {
+    
+    font-size: 25px;
+    color: white;
+}
+
+/*Estilos*/
+
+
+/*habilidades*/
+
+.bg-section {
+    
+    background: url('/img/woman-3190829_1920.jpg') no-repeat #560bad;
+    background-size: cover;
+    background-blend-mode: multiply;
+    background-position: center;
+}
+.sobremi-1{
+    
+    font-family: var(--fuente);
+    text-align: center;
+    color: white;
+}
+.sobremi-1 h1 {
+    color: white;
+    /*font-size: 60px;*/
+    font-size: 8vh;
+    text-shadow: 1px 3px var(--color-1);
+}
+.sobremi-1 p {
+    font-size: 18px;
+    font-weight: 500;
+    margin: 10px;
+}
+
+.bg-section-2 {
+    
+    background-image: url(/img/Liquid-Cheese.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+
+}
+
+/*Habilidades*/ 
+
+
+:root{
+    --z-back: -10;
+    --z-fixed: 100;
+  }
+:root{
+    
+    --mb-2: 1rem;
+    --mb-3: 1.5rem;
+    --mb-4: 2rem;
+    --mb-5: 2.5rem;
+    --mb-6: 3rem;
+  }
+  :root{
+    --first-color: #4070F4;
+    --second-color: #0E2431;
+  }
+  .habilidades {
+      
+      margin-top: 8vh;
+      margin-bottom: 10px;
+  }
+  .color_h {
+    color: white;
+    margin: 20px;
+    font-family: var(--fuente);
+  }
+  .skills__data{
+      background-color: aliceblue;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    font-weight: var(--font-semi);
+    padding: .5rem 1rem;
+    margin-bottom: var(--mb-4);
+    border-radius: .5rem;
+    box-shadow: 0 4px 25px rgba(186, 195, 201, 0.4);
+  }
+.skills__icon{
+    font-size: 2rem;
+    margin-right: var(--mb-2);
+    color: var(--first-color);
+  }
+  .skills__names{
+    display: flex;
+    align-items: center;
+  }
+
+  .skills__bar{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    background-color: var(--first-color);
+    height: .25rem;
+    border-radius: .5rem;
+    z-index: var(--z-back);
+  }
+  .skills__html{
+    width: 95%;
+  }
+  .skills__css{
+    width: 85%;
+  }
+  .skills__js{
+    width: 65%;
+  }
+  .skills__ux{
+    width: 85%;
+  }
+.habilidades_otros {
+    margin-bottom: 100px;
+}
+.habilidades_otros h3 {
+    color: var(--color-1);
+    font-size: 10vh;
+    font-family: var(--fuente);
+    text-align: center;
+    margin-top: 50px;
+    font-weight: 700;
+
+}
+ .habilidades_img {
+     padding: 20px;
+     display: flex;
+     justify-content: center;
+ }
+
+ /*Trabajos*/
+ .bg_trabajos{
+     height: 100vh;
+     position: relative;
+     height: auto;
+     width: 100%;
+     overflow: hidden;
+     font-family: var(--fuente);
+     
+ }
+
+ .work_title {
+     margin: 50px;
+     color: var(--color-1);
+     font-size: 7vh;
+ }
+video {
+     width: 100%;
+     height: 100%;
+ }
+ .absolute {
+     width: 100%;
+     height: 100%;
+     position: absolute;
+ }
+ .container_img {
+    row-gap: 2rem;
+     
+ }
+
+ .img_trabajos{
+     margin: 10px;
+    width: 350px;
+    border-radius: 10px;
+    box-shadow: 0 4px 25px rgba(14,36,49,.4);
+    overflow: hidden;
+    transition: 1s;
+    cursor: pointer;
+ }
+ .img_trabajos:hover{
+    transform: scale(1.1);
+    box-shadow: 0 4px 25px rgba(248, 213, 12, 0.8);
+ }
+
+
+
